@@ -1,9 +1,6 @@
 import gc
 import time
 
-from swift.common.utils import get_logger
-
-
 class MemPeek(object):
 
     def __init__(self, app, conf):
